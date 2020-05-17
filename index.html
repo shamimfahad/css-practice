@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 100%;
+      }
+
+      .container {
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .heading {
+        color: salmon;
+        text-align: center;
+      }
+      /* .projects {
+        margin-top: 20px;
+      }
+      .projects .project {
+        position: relative;
+        float: left;
+        width: 32.8%;
+        height: 300px;
+      }
+      .projects .project .bg {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .projects .project:hover .bg {
+        opacity: 0.7;
+      } */
+
+      .projects {
+        margin-top: 40px;
+      }
+
+      .projects .project {
+        position: relative;
+        float: left;
+        width: 32.8%;
+        margin: 0px 10px;
+      }
+
+      .projects .project img {
+        height: 200px;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .projects .project a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-decoration: none;
+        background-color: #040e27;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        opacity: 0;
+      }
+
+      .projects .project:hover a {
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .projects .project p {
+        display: block;
+        text-align: center;
+        background-color: #ccc;
+        padding: 5px 0;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">This is where I practice css</h1>
+
+      <div class="projects">
+        <div id="project-1" class="project">
+          <img src="img/form_styling.png" alt="" />
+          <a href="form-styling/form_styling.html">Live Demo</a>
+          <p>Form Design</p>
+        </div>
+        <div id="project-2" class="project">
+          <img src="img/hotel-website.png" alt="" />
+          <a href="hotel-website/index.html">Live Demo</a>
+          <p>Hotel Website</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
