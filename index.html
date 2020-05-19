@@ -4,81 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Practice</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-      }
-
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        max-width: 100%;
-      }
-
-      .container {
-        margin: 10px;
-        padding: 10px;
-      }
-
-      .heading {
-        color: salmon;
-        text-align: center;
-        margin-top: 10px;
-      }
-
-      .projects {
-        margin-top: 20px;
-      }
-
-      .projects .project {
-        position: relative;
-        float: left;
-        width: 32.5%;
-        margin: 10px 5px;
-      }
-
-      .projects .project img {
-        height: 200px;
-        width: 100%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-
-      .projects .project:hover img {
-        opacity: 0.7;
-      }
-
-      .projects .project a {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-decoration: none;
-        background-color: #040e27;
-        color: white;
-        padding: 12px 24px;
-        border: none;
-        border-radius: 5px;
-        text-align: center;
-        opacity: 0;
-      }
-
-      .projects .project:hover a {
-        opacity: 1;
-        cursor: pointer;
-      }
-
-      .projects .project p {
-        display: block;
-        text-align: center;
-        background-color: #ccc;
-        padding: 5px 0;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="container">
@@ -99,6 +25,11 @@
           <img src="img/vh-vw-practice.png" alt="" />
           <a href="vh-vw-practice/index.html">Live Demo</a>
           <p>VH & VW Practice</p>
+        </div>
+        <div id="project-4" class="project">
+          <img src="img/companny-website.png" alt="" />
+          <a href="company-website/index.html">Live Demo</a>
+          <p>Company Website</p>
         </div>
       </div>
     </div>
