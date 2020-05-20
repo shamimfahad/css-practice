@@ -1,13 +1,13 @@
 // Initialize and add the map
 function initMap() {
   // Your location
-  const loc = { lat: 40.712776, lng: -74.005974 };
+  const loc = { lat: 42.361145, lng: -71.057083 };
   // Centered map on location
   const map = new google.maps.Map(document.querySelector('.map'), {
     zoom: 14,
     center: loc,
   });
-  //The marker, positioned at location
+  // The marker, positioned at location
   const marker = new google.maps.Marker({ position: loc, map: map });
 }
 
@@ -21,7 +21,7 @@ window.addEventListener('scroll', function () {
 });
 
 // Smooth Scrolling
-$('#navbar a, .btn').on('click', function (event) {
+$('#navbar a').on('click', function (event) {
   if (this.hash !== '') {
     event.preventDefault();
 
