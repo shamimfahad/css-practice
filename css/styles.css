@@ -23,7 +23,6 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 20px;
 }
 
 .projects .project {
