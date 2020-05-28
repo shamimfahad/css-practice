@@ -1,6 +1,7 @@
 # Dependency directories
 /node_modules/
 /scss-boilerplate/node_modules
+/portfolio-website/node_modules
 
 # Logs
 logs
