@@ -35,13 +35,11 @@ body {
 .projects .project > div {
   position: relative;
   height: 100%;
-  transition: all 0.5s ease-in;
-  height: 200px;
 }
 
 .projects .project > div img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -54,7 +52,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(1, 126, 244, 0.7);
+  background: rgba(1, 126, 244, 0.8);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -63,6 +61,7 @@ body {
   align-items: center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  transition: opacity 0.5s;
 }
 
 .projects .project > div:hover .content {
